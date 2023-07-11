@@ -7,9 +7,9 @@ import random
 
 
 '''
-nombre:
-apellido:
----
+nombre: Enrique Santiago
+apellido: Fernandez
+--- 
 Ejercicio: instrucion_if_09
 ---
 Al presionar el botón  'Calcular', se deberá mostrar (utilizando el Dialog alert) un número
@@ -29,7 +29,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        numero = random.randint(1,10)
+        alert(message=numero)
         
 
 if __name__ == "__main__":
